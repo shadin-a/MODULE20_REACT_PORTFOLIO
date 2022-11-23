@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Shadin's Portfolio
         </a>
       </header>
     </div>
