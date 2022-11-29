@@ -1,9 +1,3 @@
-import nerdImage from './nerdquiz.png'
-import dawgImage from './wholetdawgout.png'
-import techblog from './techblog.jpg'
-import jate from './jate.jpg'
-import mongoAPI from './MongoDB_Logo.svg'
-import sqlTracker from './sqltracker.jpg'
 
 const AllProjectsData = [
   
