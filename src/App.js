@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
+import About from './components/AboutMe';
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          
           Shadin's Portfolio
         </a>
       </header>
+    <Footer/>
     </div>
   );
 }
