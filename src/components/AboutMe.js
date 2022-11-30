@@ -1,7 +1,7 @@
 import { Stack } from 'react-bootstrap';
 import React from "react";
-import Card from 'react-bootstrap/Card';
-
+import {Card, Row, Col, Image} from 'react-bootstrap';
+import PP from './PP.jpeg';
 //CREATE FUNCTION
 function About(){
 
@@ -12,7 +12,11 @@ function About(){
         </Card.Header>
         <Stack direction="horizontal" className="m-3 p-3">
         </Stack>
-        
+        <Row>
+          <Col sm={4}>
+        <Image roundedCircle src={PP} alt="your mom" />
+        </Col>
+        <Col sm={8}>
         <Card.Body>
           <Card.Text>
           I am a Full Stack JavaScript Web Developer, MERN Stack, with a background in linguistics and Romance and Semitic languages.
@@ -25,6 +29,8 @@ function About(){
          Skills include: Node.js, CSS, Javascript
           </Card.Text>
         </Card.Body>
+        </Col>
+        </Row>
       </Card>
     );
 }
