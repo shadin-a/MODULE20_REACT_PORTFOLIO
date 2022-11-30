@@ -31,8 +31,8 @@ function Projects(){
         <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Jacob Reeves, and Deborah Wade</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Github</Card.Link>
-        <Card.Link href="#">Link</Card.Link>
+        <Card.Link href="https://github.com/shadin-a/ayatollah-of-rock-and-rolla">Github</Card.Link>
+        <Card.Link href="https://sheltered-shore-88493.herokuapp.com/">Link</Card.Link>
       </Card.Body>
     </Card> 
           </Col>
