@@ -1,11 +1,27 @@
 import React from 'react'
+import { Container, Button} from 'react-bootstrap'
 
 function Resume() {
-    return (
-        <div>
-            <h1>This is the resume page</h1>
-        </div>
-    )
+        const Clickdownload = () => {
+            // using fetch moethod to grab the pdf
+            fetch('public/ALARAB_RESUME.pdf').then(response => {
+                response.blob().then(blob => {
+                    let alink = document.createElement('a');
+                    alink.href = "./ALARAB_RESUME.pdf";
+                    alink.download = `ALARAB_RESUME`;
+                    alink.click();
+                })
+            })
+        }
+    
+        return(
+
+                <Container center>
+    
+                    <Button value="download" onClick={Clickdownload}>Download Resume</Button>
+    
+                </Container>
+                );
 }
 
 export default Resume

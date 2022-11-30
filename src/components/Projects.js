@@ -12,7 +12,11 @@ import WA from './WA.png'
 function Projects(){
     return(
         <Container>
-
+          <Card>
+        <Card.Header>
+            Projects
+        </Card.Header>
+        
         <Row>
           <Col>
           <Card>
@@ -50,9 +54,7 @@ function Projects(){
       </Card.Body>
     </Card>
     </Col>
-        </Row>
-        <Row>
-          <Col><Card>
+    <Col><Card>
       <Card.Img variant="top" src={WLMDO} />
       <Card.Body>
         <Card.Title>Project 3</Card.Title>
@@ -68,6 +70,9 @@ function Projects(){
         <Card.Link href="#">Link</Card.Link>
       </Card.Body>
     </Card></Col>
+        </Row>
+        <Row>
+          
           <Col>  <Card>
       <Card.Img variant="top" src={WA} />
       <Card.Body>
@@ -85,6 +90,7 @@ function Projects(){
       </Card.Body>
     </Card></Col>
         </Row>
+        </Card>
       </Container>
     );
     }

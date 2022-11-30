@@ -3,13 +3,11 @@ import {Container} from 'react-bootstrap';
 
 function Footer() {
     return (
-
-        <Container>
-            
+<Container>
             <a href="https://github.com/shadin-a">GitHub</a>
-            <br></br>
             <a href="https://www.linkedin.com/in/shadin-s-al-arab-737a811b2/">LinkedIn</a>
-        </Container>
+       
+            </Container>
 
 
     );
