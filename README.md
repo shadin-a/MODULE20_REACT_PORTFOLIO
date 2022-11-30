@@ -11,7 +11,7 @@
   ## DESCRIPTION
  Welcome to my portfolio! Dynamically created HTML components provide a collection of functional applications and page, contact information, and a description of its software engineer. 
 
-  </br> Deployed App: --
+  </br> Deployed App: https://shadin-a.github.io/MODULE20_REACT_PORTFOLIO/
 
   ## INSTALLATION
 No installation required for the deployed app. 
@@ -20,7 +20,7 @@ No tests for this iteration of this React Portfolio.
 
   ## USAGE
  
-  ![App in Use](--)
+  ![App in Use](public/assets/SCSH.png)
 
   ## FAQ
   * shadin.alarab@gmail.com
