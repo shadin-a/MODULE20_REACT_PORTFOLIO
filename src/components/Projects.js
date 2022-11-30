@@ -46,7 +46,7 @@ function Projects(){
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Akarim Abdi, and Scott Gautier</ListGroup.Item>
+        <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Akarim Abdi, and Scott Gauthier</ListGroup.Item>
       </ListGroup>
       <Card.Body>
         <Card.Link href="https://github.com/sobe1290/wholetmydaWgout">Github</Card.Link>
@@ -85,8 +85,8 @@ function Projects(){
         <ListGroup.Item>Shadin Al-Arab</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Github</Card.Link>
-        <Card.Link href="#">Link</Card.Link>
+        <Card.Link href="https://github.com/shadin-a/MODULE6-WEATHER-DASHBOARD">Github</Card.Link>
+        <Card.Link href="https://shadin-a.github.io/MODULE6-WEATHER-DASHBOARD/">Link</Card.Link>
       </Card.Body>
     </Card></Col>
         </Row>
