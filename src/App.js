@@ -16,7 +16,7 @@ function App() {
       
       <header className="App-header">
         <NavBar/>
-        <Image fluid variant="top" src={TC} alt="your mom" />
+        <img variant="top" src={TC} alt="your mom" />
       </header>
 
       <Routes>

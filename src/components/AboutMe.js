@@ -22,7 +22,7 @@ function About(){
           I am a Full Stack JavaScript Web Developer, MERN Stack, with a background in linguistics and Romance and Semitic languages.
           </Card.Text>
           <Card.Text>
-        As a lifelong student, I focus my attentions on the intersection of languages, technology, and learning. A ardent beleiver in the KISS methodology and collabrative work.
+        As a lifelong student, I focus my attentions on the intersection of languages, technology, and learning. A ardent believer in the KISS methodology and collabrative work.
         When I'm not imbedded in my computer screen, you can find me outside with my dog, touching some grass.
           </Card.Text>
           <Card.Text>
