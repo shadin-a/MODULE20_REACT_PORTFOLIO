@@ -2,56 +2,87 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {Card} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import { ListGroup } from 'react-bootstrap';
 import WLMDO from './WLMDO.png';
+import NNQ from './NNQ.png';
+import WA from './WA.png'
 
 function Projects(){
     return(
         <Container>
+
         <Row>
-          <Col> <Card className="bg-dark text-black">
-      <Card.Img src={WLMDO} alt="Card image" />
-      <Card.ImgOverlay>
+          <Col>
+          <Card>
+      <Card.Img variant="top" src={NNQ} />
+      <Card.Body>
         <Card.Title>Nerd Knowledge Quiz</Card.Title>
         <Card.Text>
-        Fullstack web-based quiz game. Built using Bootstrap, Node.js, and MySQL leveraging MVC architecture.
+        Full stack web-based quiz game. Built using Bootstrap, Node.js, and MySQL leveraging MVC architecture.
         </Card.Text>
-        <Card.Text>Link</Card.Text>
-      </Card.ImgOverlay>
-    </Card></Col>
-          <Col> <Card className="bg-dark text-white">
-      <Card.Img src="holder.js/100px270" alt="Card image" />
-      <Card.ImgOverlay>
-        <Card.Title>Card title</Card.Title>
+      </Card.Body>
+      <ListGroup className="list-group-flush">
+        <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Jacob Reeves, and Deborah Wade</ListGroup.Item>
+      </ListGroup>
+      <Card.Body>
+        <Card.Link href="#">Github</Card.Link>
+        <Card.Link href="#">Link</Card.Link>
+      </Card.Body>
+    </Card> 
+          </Col>
+          <Col>
+          <Card>
+      <Card.Img variant="top" src={WLMDO} />
+      <Card.Body>
+        <Card.Title>Who Let My DaWg Out</Card.Title>
         <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
+        RESTful web-based application to handle API calls. Front end design with Foundation. Calls were made to Google Maps API. 
         </Card.Text>
-        <Card.Text>Last updated 3 mins ago</Card.Text>
-      </Card.ImgOverlay>
-    </Card></Col>
+      </Card.Body>
+      <ListGroup className="list-group-flush">
+        <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Akarim Abdi, and Scott Gautier</ListGroup.Item>
+      </ListGroup>
+      <Card.Body>
+        <Card.Link href="#">Github</Card.Link>
+        <Card.Link href="#">Link</Card.Link>
+      </Card.Body>
+    </Card>
+    </Col>
         </Row>
         <Row>
-          <Col><Card className="bg-dark text-white">
-      <Card.Img src="holder.js/100px270" alt="Card image" />
-      <Card.ImgOverlay>
-        <Card.Title>Card title</Card.Title>
+          <Col><Card>
+      <Card.Img variant="top" src={WLMDO} />
+      <Card.Body>
+        <Card.Title>Project 3</Card.Title>
         <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
+        Full-stack MERN application.
         </Card.Text>
-        <Card.Text>Last updated 3 mins ago</Card.Text>
-      </Card.ImgOverlay>
+      </Card.Body>
+      <ListGroup className="list-group-flush">
+        <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Jacob Reeves, and Tony Tran</ListGroup.Item>
+      </ListGroup>
+      <Card.Body>
+        <Card.Link href="#">Github</Card.Link>
+        <Card.Link href="#">Link</Card.Link>
+      </Card.Body>
     </Card></Col>
-          <Col><Card className="bg-dark text-white">
-      <Card.Img src="holder.js/100px270" alt="Card image" />
-      <Card.ImgOverlay>
-        <Card.Title>Card title</Card.Title>
+          <Col>  <Card>
+      <Card.Img variant="top" src={WA} />
+      <Card.Body>
+        <Card.Title>Weather Forecast</Card.Title>
         <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
+          Weather Application relying on API calls. Front end built with Bootstrap.
         </Card.Text>
-        <Card.Text>Last updated 3 mins ago</Card.Text>
-      </Card.ImgOverlay>
+      </Card.Body>
+      <ListGroup className="list-group-flush">
+        <ListGroup.Item>Shadin Al-Arab</ListGroup.Item>
+      </ListGroup>
+      <Card.Body>
+        <Card.Link href="#">Github</Card.Link>
+        <Card.Link href="#">Link</Card.Link>
+      </Card.Body>
     </Card></Col>
         </Row>
       </Container>
