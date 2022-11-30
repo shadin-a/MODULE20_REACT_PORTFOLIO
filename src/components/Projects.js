@@ -49,8 +49,8 @@ function Projects(){
         <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Akarim Abdi, and Scott Gautier</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Github</Card.Link>
-        <Card.Link href="#">Link</Card.Link>
+        <Card.Link href="https://github.com/sobe1290/wholetmydaWgout">Github</Card.Link>
+        <Card.Link href="https://sobe1290.github.io/wholetmydaWgout/">Link</Card.Link>
       </Card.Body>
     </Card>
     </Col>
