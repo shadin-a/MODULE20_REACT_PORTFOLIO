@@ -8,6 +8,7 @@ import { ListGroup } from 'react-bootstrap';
 import WLMDO from './WLMDO.png';
 import NNQ from './NNQ.png';
 import WA from './WA.png'
+import GM from './GM.png'
 
 function Projects(){
     return(
@@ -55,19 +56,19 @@ function Projects(){
     </Card>
     </Col>
     <Col><Card>
-      <Card.Img variant="top" src={WLMDO} />
+      <Card.Img variant="top" src={GM} />
       <Card.Body>
-        <Card.Title>Project 3</Card.Title>
+        <Card.Title>GoMode</Card.Title>
         <Card.Text>
-        Full-stack MERN application.
+        Built using React, Node.js, and MongoDB leveraging Client/Server architecture., GoMode is an invite-only application. 
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
         <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Jacob Reeves, and Tony Tran</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Github</Card.Link>
-        <Card.Link href="#">Link</Card.Link>
+        <Card.Link href="https://github.com/zshep/Fortress_of_Solitude">Github</Card.Link>
+        <Card.Link href="https://gomodez.herokuapp.com/">Link</Card.Link>
       </Card.Body>
     </Card></Col>
         </Row>
