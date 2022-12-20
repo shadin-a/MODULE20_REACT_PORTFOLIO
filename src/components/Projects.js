@@ -90,6 +90,38 @@ function Projects(){
         <Card.Link href="https://shadin-a.github.io/MODULE6-WEATHER-DASHBOARD/">Link</Card.Link>
       </Card.Body>
     </Card></Col>
+    <Col><Card>
+      <Card.Img variant="top" src={GM} />
+      <Card.Body>
+        <Card.Title>GoMode</Card.Title>
+        <Card.Text>
+        Built using React, Node.js, and MongoDB leveraging Client/Server architecture. GoMode is an invite-only application. 
+        </Card.Text>
+      </Card.Body>
+      <ListGroup className="list-group-flush">
+        <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Jacob Reeves, and Tony Tran</ListGroup.Item>
+      </ListGroup>
+      <Card.Body>
+        <Card.Link href="https://github.com/zshep/Fortress_of_Solitude">Github</Card.Link>
+        <Card.Link href="https://gomodez.herokuapp.com/">Link</Card.Link>
+      </Card.Body>
+    </Card></Col>
+    <Col><Card>
+      <Card.Img variant="top" src={GM} />
+      <Card.Body>
+        <Card.Title>GoMode</Card.Title>
+        <Card.Text>
+        Built using React, Node.js, and MongoDB leveraging Client/Server architecture. GoMode is an invite-only application. 
+        </Card.Text>
+      </Card.Body>
+      <ListGroup className="list-group-flush">
+        <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Jacob Reeves, and Tony Tran</ListGroup.Item>
+      </ListGroup>
+      <Card.Body>
+        <Card.Link href="https://github.com/zshep/Fortress_of_Solitude">Github</Card.Link>
+        <Card.Link href="https://gomodez.herokuapp.com/">Link</Card.Link>
+      </Card.Body>
+    </Card></Col>
         </Row>
         </Card>
       </Container>
