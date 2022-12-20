@@ -60,7 +60,7 @@ function Projects(){
       <Card.Body>
         <Card.Title>GoMode</Card.Title>
         <Card.Text>
-        Built using React, Node.js, and MongoDB leveraging Client/Server architecture., GoMode is an invite-only application. 
+        Built using React, Node.js, and MongoDB leveraging Client/Server architecture. GoMode is an invite-only application. 
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
