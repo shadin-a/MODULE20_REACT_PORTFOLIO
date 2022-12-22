@@ -7,8 +7,9 @@ import { Nav } from 'react-bootstrap';
 import { ListGroup } from 'react-bootstrap';
 import WLMDO from './WLMDO.png';
 import NNQ from './NNQ.png';
-import WA from './WA.png'
-import GM from './GM.png'
+import WA from './WA.png';
+import GM from './GM.png';
+import MSCT from './MSCT.png';
 
 function Projects(){
     return(
@@ -91,31 +92,31 @@ function Projects(){
       </Card.Body>
     </Card></Col>
     <Col><Card>
-      <Card.Img variant="top" src={GM} />
+      <Card.Img variant="top" src={MSCT} />
       <Card.Body>
-        <Card.Title>GoMode</Card.Title>
+        <Card.Title>MySQL Company Tracker</Card.Title>
         <Card.Text>
-        Built using React, Node.js, and MongoDB leveraging Client/Server architecture. GoMode is an invite-only application. 
+        Use Inquirer to access a SQL database and view, add, and update everything from departments and roles to employees in your company.
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Jacob Reeves, and Tony Tran</ListGroup.Item>
+        <ListGroup.Item>Shadin Al-Arab</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="https://github.com/zshep/Fortress_of_Solitude">Github</Card.Link>
-        <Card.Link href="https://gomodez.herokuapp.com/">Link</Card.Link>
+        <Card.Link href="https://github.com/shadin-a/MODULE12_MYSQLCOMPANYTRACKER">Github</Card.Link>
+        <Card.Link href="https://drive.google.com/file/d/1Q1Qb7wkyVJlKF3FaTOxfdx_9gteL1nGx/view?usp=sharing">Walkthrough</Card.Link>
       </Card.Body>
     </Card></Col>
     <Col><Card>
       <Card.Img variant="top" src={GM} />
       <Card.Body>
-        <Card.Title>GoMode</Card.Title>
+        <Card.Title>WIP BLOG</Card.Title>
         <Card.Text>
         Built using React, Node.js, and MongoDB leveraging Client/Server architecture. GoMode is an invite-only application. 
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroup.Item>Shadin Al-Arab, Patrick Sobczyk, Shep Sheperdigian, Jacob Reeves, and Tony Tran</ListGroup.Item>
+        <ListGroup.Item>Shadin Al-Arab</ListGroup.Item>
       </ListGroup>
       <Card.Body>
         <Card.Link href="https://github.com/zshep/Fortress_of_Solitude">Github</Card.Link>
