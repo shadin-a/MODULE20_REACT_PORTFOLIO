@@ -10,6 +10,7 @@ import NNQ from './NNQ.png';
 import WA from './WA.png';
 import GM from './GM.png';
 import MSCT from './MSCT.png';
+import WIP from '.WIP.jpeg';
 
 function Projects(){
     return(
@@ -108,11 +109,11 @@ function Projects(){
       </Card.Body>
     </Card></Col>
     <Col><Card>
-      <Card.Img variant="top" src={GM} />
+      <Card.Img variant="top" src={WIP} />
       <Card.Body>
         <Card.Title>WIP BLOG</Card.Title>
         <Card.Text>
-        Built using React, Node.js, and MongoDB leveraging Client/Server architecture. GoMode is an invite-only application. 
+        A book blog built using React, Node.js, and MongoDB leveraging Client/Server architecture. 
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
